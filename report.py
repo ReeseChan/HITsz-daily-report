@@ -50,12 +50,6 @@ class Report(object):
         self.session = requests.session()
 
         self.urls = {
-            'csh': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/csh',
-            'get': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/getYqxx',
-            'sso': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/shsj/common',
-            'uid': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xsHome/getGrxx',
-            'save': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/saveYqxx',
-            'check': 'http://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/getYqxxList',
             'csh': 'https://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/csh',
             'get': 'https://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/xs/getYqxx',
             'sso': 'https://xgsm.hitsz.edu.cn/zhxy-xgzs/xg_mobile/shsj/common',
